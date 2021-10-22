@@ -1,0 +1,25 @@
+<template>
+	<view>
+		wonderful
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onReady() {
+			getApp().globalData.tabReady.wonderful = true
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+
+</style>

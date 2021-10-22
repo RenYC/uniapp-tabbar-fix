@@ -1,0 +1,83 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/live/live",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tabbar/news/news",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tabbar/discovery/discovery",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tabbar/data/data",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tabbar/wonderful/wonderful",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#1E62FF",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/tabbar/live/live",
+				"text": "比赛",
+				"iconPath": "/static/tabs/live.png",
+				"selectedIconPath": "/static/tabs/live_active.png"
+			},
+			{
+				"pagePath": "pages/tabbar/news/news",
+				"text": "资讯",
+				"iconPath": "/static/tabs/news.png",
+				"selectedIconPath": "/static/tabs/news_active.png"
+			},
+			{
+				"pagePath": "pages/tabbar/discovery/discovery",
+				"text": "发现",
+				"iconPath": "/static/tabs/discovery.png",
+				"selectedIconPath": "/static/tabs/discovery_active.png"
+			},
+			{
+				"pagePath": "pages/tabbar/data/data",
+				"text": "数据",
+				"iconPath": "/static/tabs/data.png",
+				"selectedIconPath": "/static/tabs/data_active.png"
+			},
+			{
+				"pagePath": "pages/tabbar/wonderful/wonderful",
+				"text": "精彩",
+				"iconPath": "/static/tabs/wonderful.png",
+				"selectedIconPath": "/static/tabs/wonderful_active.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

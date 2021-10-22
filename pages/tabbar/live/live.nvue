@@ -1,0 +1,25 @@
+<template>
+	<view>
+		live
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onReady() {
+			getApp().globalData.tabReady.live = true
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+
+</style>

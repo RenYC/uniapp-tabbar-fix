@@ -1,0 +1,25 @@
+<template>
+	<view>
+		data
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onReady() {
+			getApp().globalData.tabReady.data = true
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+
+</style>

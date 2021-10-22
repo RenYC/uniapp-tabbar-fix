@@ -1,0 +1,25 @@
+<template>
+	<view>
+		discovery
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onReady() {
+			getApp().globalData.tabReady.discovery = true
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+
+</style>
