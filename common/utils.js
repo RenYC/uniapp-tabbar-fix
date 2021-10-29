@@ -93,11 +93,28 @@ export class Mask {
 	close() {
 		this.mask.close();
 	}
+	
+	addInterceptor() {
+		uni.addInterceptor('switchTab', {
+			invoke: (args)=> {
+				if (this.globalData.tabReady.live && this.globalData.tabReady.news && this.globalData.tabReady.discovery &&
+					this.globalData.tabReady.data && this.globalData.tabReady.wonderful) return
+					
+				this.show()
+			},
+		})
+		uni.addInterceptor('navigateTo', {
+			invoke: (args)=> {
+				this.hide()
+			},
+		})
+	}
 
 	init() {
 		this.drawRect()
 		this.onClick()
 		this.show()
+		this.addInterceptor()
 	}
 
 }
